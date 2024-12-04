@@ -55,4 +55,11 @@
       line-height: 1.2;
     }
   }
+
+  &__inner {
+    background: variables.$bg-image no-repeat 40% 20% / cover;
+    height: 5.5rem;
+    color: #fff;
+    border-bottom: 3px solid variables.$primary-color;
+  }
 }
