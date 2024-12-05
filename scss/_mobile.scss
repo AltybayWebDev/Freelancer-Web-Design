@@ -51,21 +51,20 @@
 
 // mobile
 @media (max-width: 576px) {
+  #home {
+    &__a {
+      .skills {
+        div {
+          border-bottom: 1px solid variables.$light-color;
+          padding-bottom: 1rem;
 
-    #home {
-        &__a {
-            .skills {
-                div {
-                    border-bottom: 1px solid variables.$light-color;
-                padding-bottom: 1rem;
-
-                &:last-child{
-                    border: none;
-                }
-                }
-            }
+          &:last-child {
+            border: none;
+          }
         }
+      }
     }
+  }
 
   .lead {
     font-size: 1rem;
